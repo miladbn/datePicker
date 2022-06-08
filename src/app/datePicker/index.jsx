@@ -1,12 +1,13 @@
-import React from "react";
+import MonthPicker from "./components/monthPicker";
+import YearPicker from "./components/yearPicker";
 import classes from "./datePicker.module.css";
 
 const DatePicker = () => {
   return (
     <div className={classes.datePickerMain}>
       <div className={classes.firstRow}>
-        <div>1</div>
-        <div>2</div>
+        <YearPicker />
+        <MonthPicker />
       </div>
     </div>
   );
