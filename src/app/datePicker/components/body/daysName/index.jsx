@@ -2,7 +2,7 @@ import classes from "./daysName.module.css";
 
 const DaysName = () => {
   return (
-    <div>
+    <div className={classes.daysRow}>
       <p>شنبه</p>
       <p>یک شنبه</p>
       <p>دو شنبه</p>
