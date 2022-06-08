@@ -1,14 +1,12 @@
-import MonthPicker from "./components/monthPicker";
-import YearPicker from "./components/yearPicker";
+import Header from "./components/header";
+import Body from "./components/body";
 import classes from "./datePicker.module.css";
 
 const DatePicker = () => {
   return (
     <div className={classes.datePickerMain}>
-      <div className={classes.firstRow}>
-        <YearPicker />
-        <MonthPicker />
-      </div>
+      <Header />
+      <Body />
     </div>
   );
 };

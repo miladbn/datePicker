@@ -6,8 +6,3 @@
   box-shadow: -4px 4px 30px rgba(0, 0, 0, 0.06);
   padding: 36px;
 }
-.firstRow {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}

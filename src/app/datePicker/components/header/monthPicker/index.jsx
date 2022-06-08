@@ -1,7 +1,7 @@
 import classes from "./monthPicker.module.css";
 
 const MonthPicker = () => {
-  return <div>MonthPicker</div>;
+  return <div>اردیبهشت </div>;
 };
 
 export default MonthPicker;

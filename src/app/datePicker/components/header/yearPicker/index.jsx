@@ -1,7 +1,7 @@
 import React from "react";
 
 const YearPicker = () => {
-  return <div>YearPicker</div>;
+  return <div>1401</div>;
 };
 
 export default YearPicker;
