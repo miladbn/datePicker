@@ -1,7 +1,11 @@
-import React from "react";
+import DaysName from "./daysName";
 
 const Body = () => {
-  return <div>Body</div>;
+  return (
+    <div>
+      <DaysName />
+    </div>
+  );
 };
 
 export default Body;
