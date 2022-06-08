@@ -1,0 +1,15 @@
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url("../fonts/Iranian_Sans.ttf");
+  src: url("../fonts/Iranian_Sans.ttf") format("embedded-opentype"),
+    /* IE6-8 */ url("../fonts/Iranian_Sans.ttf") format("woff"),
+    /* FF3.6+, IE9, Chrome6+, Saf5.1+*/ url("../fonts/Iranian_Sans.ttf")
+      format("truetype");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
